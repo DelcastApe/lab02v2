@@ -7,6 +7,12 @@ import Aside from "./aside";
 import Footer from "./footer";
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from "react-responsive-carousel";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const feather = require('feather-icons');
+setTimeout( () =>{
+    feather.replace();
+}, 1000 );
 
 const root = createRoot(document.getElementById("root"));
 root.render(
