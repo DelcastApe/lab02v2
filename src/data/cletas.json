@@ -1,0 +1,21 @@
+
+    [
+    {
+      "slug": "cleta-1",
+      "name": "Santa Cruz Nomad",
+      "image": "https://ep1.pinkbike.org/p6pb14786131/p6pb14786131.jpg",
+      "description": "Enduro Bike"
+    },
+    {
+        "slug": "cleta-2",
+      "name": "Santa Cruz Tallboy",
+      "image": "https://montenbaik.com/wp-content/uploads/2016/09/TallboyPlus.jpg",
+      "description": "XC Bike"
+    },
+    {
+        "slug": "cleta-3",
+      "name": "Santa Cruz V10",
+      "image": "https://nsmb.com/media/images/scb-v10-tim-coleman-seymour-cove-130619-ajbarla.original_2Ec7Hts.jpg",
+      "description": "DownHill Bike"
+    }
+  ]
