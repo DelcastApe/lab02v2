@@ -1,17 +1,23 @@
+import { Navigate, useNavigate } from 'react-router-dom';
 import Cletas from './data/cletas.json'
 import Carousel from 'react-bootstrap/Carousel';
 
-const handleClick= ()=>{
-  console.log("Click");
-}
+
 function UncontrolledExample() {
+
+  const navigate= useNavigate();
+
+const handleClick= (slug)=>{
+  navigate("/detalle/"+slug)
+}
+
   return (
     <Carousel>
       {
         Cletas.map(it=>{
           return <Carousel.Item onClick={(e)=>{
             e.preventDefault();
-            handleClick}}>
+            handleClick(it.slug)}}>
           <img
             className="d-block w-100"
             src={it.image}
