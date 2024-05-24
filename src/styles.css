@@ -1,0 +1,30 @@
+.primary{
+    background-color: #190E4F !important;
+    color: white!important;
+}
+
+.secondary{
+    background-color: #002A22 !important;
+    color: white!important;
+}
+
+
+.terciary{
+    background-color: #03012C ;
+    color: white!important;
+}
+
+body{
+    margin :0 !important;
+    padding: 0 !important;
+}
+
+.centrar{
+    margin : auto;
+    padding : auto;
+}
+
+.caja{
+    max-width:100 px ;
+    max-height: 100 px;
+}

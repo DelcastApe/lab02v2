@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter , RouterProvider ,Route,Link,} from "react-router-dom"; 
 import Single from './single';
 import Basic from "./layouts/basic";
+import "./styles.css";
 
 const router= createBrowserRouter([
     {

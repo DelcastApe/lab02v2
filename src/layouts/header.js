@@ -1,8 +1,12 @@
+import "../styles.css";
+
 const Header = () => {
-    return <header>
-        <h1  class="text-center bg-secondary" ><i data-feather="lock"></i> Delcast´s Shop</h1>
-        
-    </header>;
+    
+    return (
+    <div className="primary">
+    <h1  class="text-center" ><i data-feather="lock"></i> Delcast´s Shop</h1>
+  
+</div>)
 }
 
 export default Header;
