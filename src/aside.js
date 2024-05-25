@@ -6,10 +6,10 @@ const Aside = () => {
      
   <div className="m-4 p-3">
     
-  <label for="exampleDropdownFormEmail1" class=" p-3 form-label">Correo Electronico</label>
+  <label for="exampleDropdownFormEmail1" class=" p-3 form-label" > <i data-feather="mail"></i> Correo Electronico</label>
       <input type="email" class=" form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" />
   
-      <label for="exampleDropdownFormPassword1" class=" p-3 form-label">Contraseña</label>
+      <label for="exampleDropdownFormPassword1" class=" p-3 form-label"><i data-feather="lock"></i> Contraseña</label>
       <input type="password" class="mb-3 form-control" id="exampleDropdownFormPassword1" placeholder="Password" />
 
         <input type="checkbox" class=" form-check-input" id="dropdownCheck" />
